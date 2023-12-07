@@ -1,10 +1,41 @@
+from nltk.corpus import stopwords
+import re
+import pandas as pd
+import nltk
+from nltk.tokenize import word_tokenize
+
+from nltk.stem import WordNetLemmatizer
+import wandb
+import matplotlib.pyplot as plt
+from wordcloud import WordCloud
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+stop_words = set(stopwords.words('english'))
+stop_words.remove('not')
+
+lemmatizer = WordNetLemmatizer()
+def remove_punctuations_numbers(inputs):
+        """Remove punctuations and numbers from the text."""
+        return re.sub(r'[^a-zA-Z]', ' ', inputs)
+def tokenize_text(inputs):
+        """Tokenize the text."""
+        return word_tokenize(inputs)
+
+def remove_stopwords(inputs):
+        """Remove stopwords from the tokenized text."""
+        return [k for k in inputs if k not in stop_words]  
+
+def lemmatize_text(inputs):
+        """Lemmatize the text."""
+        return [lemmatizer.lemmatize(word=kk, pos='v') for kk in inputs]    
 
 def preprocessing_data():
     import re
     import pandas as pd
     import nltk
     from nltk.tokenize import word_tokenize
-    from nltk.corpus import stopwords
+    
     from nltk.stem import WordNetLemmatizer
     import wandb
     import matplotlib.pyplot as plt
@@ -25,32 +56,23 @@ def preprocessing_data():
     # Lowercase all the texts
     df['text'] = df['text'].str.lower()
 
-    def remove_punctuations_numbers(inputs):
-        """Remove punctuations and numbers from the text."""
-        return re.sub(r'[^a-zA-Z]', ' ', inputs)
+    
 
     df['text'] = df['text'].apply(remove_punctuations_numbers)
 
-    def tokenize_text(inputs):
-        """Tokenize the text."""
-        return word_tokenize(inputs)
+    
 
     df['text_tokenized'] = df['text'].apply(tokenize_text)
 
-    stop_words = set(stopwords.words('english'))
-    stop_words.remove('not')
+    
 
-    def remove_stopwords(inputs):
-        """Remove stopwords from the tokenized text."""
-        return [k for k in inputs if k not in stop_words]
+    
 
     df['text_stop'] = df['text_tokenized'].apply(remove_stopwords)
 
-    lemmatizer = WordNetLemmatizer()
+    
 
-    def lemmatize_text(inputs):
-        """Lemmatize the text."""
-        return [lemmatizer.lemmatize(word=kk, pos='v') for kk in inputs]
+    
 
     df['text_lemmatized'] = df['text_stop'].apply(lemmatize_text)
 

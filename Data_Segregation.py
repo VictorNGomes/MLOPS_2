@@ -1,4 +1,3 @@
-
 def data_segregation():    
     import os
     import wandb

@@ -1,0 +1,100 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-12-07T02:50:27.852588",
+    "startedAt": "2023-12-07T02:50:26.014804",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "pipeline.py",
+    "codePathLocal": "pipeline.py",
+    "codePath": "pipeline.py",
+    "git": {
+        "remote": "git@github.com:VictorNGomes/MLOPS_2.git",
+        "commit": "ba2923ff0afe3099d6166c9d81a7938f0f791b5e"
+    },
+    "email": "victorgomes.vng@hotmail.com",
+    "root": "/home/victorgomes/MLOps/Trab2_Unid2",
+    "host": "DESKTOP-PPGCHVR",
+    "username": "victorgomes",
+    "executable": "/home/victorgomes/MLOps/Trab2_Unid2/env/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3892.6959999999985,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 5.424308776855469
+        }
+    },
+    "memory": {
+        "total": 7.448383331298828
+    }
+}

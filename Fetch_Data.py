@@ -1,6 +1,4 @@
 
-from pipeline import depends_on
-
 def fetch_data():   
     import wandb
     import requests
