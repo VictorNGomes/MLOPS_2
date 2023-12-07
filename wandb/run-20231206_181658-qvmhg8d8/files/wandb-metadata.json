@@ -1,0 +1,94 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-12-06T21:17:04.062421",
+    "startedAt": "2023-12-06T21:16:58.425621",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Fetch_Data.py",
+    "codePathLocal": "Fetch_Data.py",
+    "codePath": "Fetch_Data.py",
+    "host": "DESKTOP-PPGCHVR",
+    "username": "victorgomes",
+    "executable": "/home/victorgomes/MLOps/Trab2_Unid2/env/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3892.6959999999985,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 2.589550018310547
+        }
+    },
+    "memory": {
+        "total": 7.448383331298828
+    }
+}

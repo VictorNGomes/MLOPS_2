@@ -1,0 +1,1 @@
+{"GFLOPs": 1.06545e-05, "epoch": 9, "_timestamp": 1701912652.071454, "loss": 0.7044962048530579, "accuracy": 0.5678431391716003, "val_loss": 0.697875440120697, "val_accuracy": 0.575407862663269, "_runtime": 23.45826005935669, "_step": 19, "best_val_loss": 0.45922666788101196, "best_epoch": 4, "_wandb": {"runtime": 24}}

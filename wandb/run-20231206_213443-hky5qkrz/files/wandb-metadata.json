@@ -1,0 +1,100 @@
+{
+    "os": "Linux-5.15.133.1-microsoft-standard-WSL2-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2023-12-07T00:34:45.179021",
+    "startedAt": "2023-12-07T00:34:43.287372",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Data_Segregation.py",
+    "codePathLocal": "Data_Segregation.py",
+    "codePath": "Data_Segregation.py",
+    "git": {
+        "remote": null,
+        "commit": "843ea533542d1b5dcb0cc033a46db97d5cafe015"
+    },
+    "email": "victorgomes.vng@hotmail.com",
+    "root": "/home/victorgomes/MLOps/Trab2_Unid2",
+    "host": "DESKTOP-PPGCHVR",
+    "username": "victorgomes",
+    "executable": "/home/victorgomes/MLOps/Trab2_Unid2/env/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3892.6959999999985,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3892.696,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 3.1475868225097656
+        }
+    },
+    "memory": {
+        "total": 7.448383331298828
+    }
+}
